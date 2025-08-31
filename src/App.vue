@@ -49,11 +49,12 @@ const monthView = reactive({
   plugins: [dayGridPlugin, interactionPlugin],
   initialView: 'dayGridMonth',
   events: events,
-  locale: 'de-de',
+  locale: deLocale,
   firstDay: 1,
   headerToolbar: {
     right: 'prev,next today downloadAsIcs',
     center: 'title',
+    left: ''
   },
   customButtons: {
     downloadAsIcs: {
