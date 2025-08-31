@@ -22,10 +22,11 @@ const calendarTitle = ref('')
 
 const listView = reactive({
   plugins: [interactionPlugin, listPlugin],
-  initialView: 'listWeek',
+  initialView: 'listMonth',
   events: events,
   locale: deLocale,
   firstDay: 1,
+  height: "100%",
   headerToolbar: {
     center: 'prev,next today downloadAsIcs',
     right: '',
@@ -51,6 +52,7 @@ const monthView = reactive({
   events: events,
   locale: deLocale,
   firstDay: 1,
+  height: "100%",
   headerToolbar: {
     right: 'prev,next today downloadAsIcs',
     center: 'title',
@@ -66,12 +68,14 @@ const monthView = reactive({
 </script>
 
 <template>
-  <DownloadDialog v-model:dialogVisible="downloadDialog" />
-  <div class="hidden sm:block m-2">
-    <FullCalendar ref="calendarRef" :options="monthView"/>
-  </div>
-  <div class="block sm:hidden calendar-wrapper">
-    <h2 class="calendar-title text-2xl m-2">{{ calendarTitle }}</h2>
-    <FullCalendar ref="calendarRef" :options="listView"/>
+  <div class="h-screen flex flex-col">
+    <DownloadDialog v-model:dialogVisible="downloadDialog" />
+    <div class="hidden sm:block m-2 flex-grow">
+      <FullCalendar ref="calendarRef" :options="monthView"/>
+    </div>
+    <div class="block sm:hidden calendar-wrapper flex-grow">
+      <h2 class="calendar-title text-2xl m-2">{{ calendarTitle }}</h2>
+      <FullCalendar ref="calendarRef" :options="listView"/>
+    </div>
   </div>
 </template>
