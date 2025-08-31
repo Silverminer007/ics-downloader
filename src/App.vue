@@ -67,7 +67,7 @@ const monthView = reactive({
 
 <template>
   <DownloadDialog v-model:dialogVisible="downloadDialog" />
-  <div class="hidden sm:block">
+  <div class="hidden sm:block m-2">
     <FullCalendar ref="calendarRef" :options="monthView"/>
   </div>
   <div class="block sm:hidden calendar-wrapper">
