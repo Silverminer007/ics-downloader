@@ -1,41 +1,1268 @@
 [
   {
-    "name": "KjG Termine",
-    "color": "#00ff00",
+    "name": "KjG Gruppenstunde ab 3. Klasse",
+    "color": "#009688",
     "events": [
       {
-        "title": "Gruppenstunde",
+        "title": "Gruppenstunde ab 3. Klasse",
         "start": "2025-09-01T17:30",
         "end": "2025-09-01T19:00",
         "location": "KjG Jugendkeller",
         "description": "Gruppenstunde ab 3. Klasse"
       },
       {
-        "title": "Gruppenstunde",
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-09-08T17:30",
+        "end": "2025-09-08T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-09-15T17:30",
+        "end": "2025-09-15T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-09-22T17:30",
+        "end": "2025-09-22T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-09-29T17:30",
+        "end": "2025-09-29T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-10-06T17:30",
+        "end": "2025-10-06T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-10-13T17:30",
+        "end": "2025-10-13T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-10-20T17:30",
+        "end": "2025-10-20T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-10-27T17:30",
+        "end": "2025-10-27T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-11-03T17:30",
+        "end": "2025-11-03T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-11-10T17:30",
+        "end": "2025-11-10T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-11-17T17:30",
+        "end": "2025-11-17T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-11-24T17:30",
+        "end": "2025-11-24T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-12-01T17:30",
+        "end": "2025-12-01T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-12-08T17:30",
+        "end": "2025-12-08T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-12-15T17:30",
+        "end": "2025-12-15T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-12-22T17:30",
+        "end": "2025-12-22T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2025-12-29T17:30",
+        "end": "2025-12-29T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-01-05T17:30",
+        "end": "2026-01-05T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-01-12T17:30",
+        "end": "2026-01-12T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-01-19T17:30",
+        "end": "2026-01-19T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-01-26T17:30",
+        "end": "2026-01-26T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-02-02T17:30",
+        "end": "2026-02-02T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-02-09T17:30",
+        "end": "2026-02-09T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-02-16T17:30",
+        "end": "2026-02-16T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-02-23T17:30",
+        "end": "2026-02-23T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-03-02T17:30",
+        "end": "2026-03-02T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-03-09T17:30",
+        "end": "2026-03-09T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-03-16T17:30",
+        "end": "2026-03-16T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-03-23T17:30",
+        "end": "2026-03-23T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-03-30T17:30",
+        "end": "2026-03-30T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-04-06T17:30",
+        "end": "2026-04-06T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-04-13T17:30",
+        "end": "2026-04-13T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-04-20T17:30",
+        "end": "2026-04-20T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-04-27T17:30",
+        "end": "2026-04-27T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-05-04T17:30",
+        "end": "2026-05-04T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-05-11T17:30",
+        "end": "2026-05-11T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-05-18T17:30",
+        "end": "2026-05-18T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-05-25T17:30",
+        "end": "2026-05-25T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-06-01T17:30",
+        "end": "2026-06-01T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-06-08T17:30",
+        "end": "2026-06-08T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-06-15T17:30",
+        "end": "2026-06-15T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-06-22T17:30",
+        "end": "2026-06-22T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-06-29T17:30",
+        "end": "2026-06-29T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-07-06T17:30",
+        "end": "2026-07-06T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-07-13T17:30",
+        "end": "2026-07-13T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-07-20T17:30",
+        "end": "2026-07-20T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-07-27T17:30",
+        "end": "2026-07-27T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-08-03T17:30",
+        "end": "2026-08-03T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-08-10T17:30",
+        "end": "2026-08-10T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-08-17T17:30",
+        "end": "2026-08-17T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-08-24T17:30",
+        "end": "2026-08-24T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-08-31T17:30",
+        "end": "2026-08-31T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-09-07T17:30",
+        "end": "2026-09-07T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-09-14T17:30",
+        "end": "2026-09-14T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-09-21T17:30",
+        "end": "2026-09-21T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-09-28T17:30",
+        "end": "2026-09-28T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-10-05T17:30",
+        "end": "2026-10-05T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-10-12T17:30",
+        "end": "2026-10-12T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-10-19T17:30",
+        "end": "2026-10-19T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-10-26T17:30",
+        "end": "2026-10-26T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-11-02T17:30",
+        "end": "2026-11-02T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-11-09T17:30",
+        "end": "2026-11-09T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-11-16T17:30",
+        "end": "2026-11-16T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-11-23T17:30",
+        "end": "2026-11-23T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-11-30T17:30",
+        "end": "2026-11-30T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-12-07T17:30",
+        "end": "2026-12-07T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-12-14T17:30",
+        "end": "2026-12-14T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-12-21T17:30",
+        "end": "2026-12-21T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 3. Klasse",
+        "start": "2026-12-28T17:30",
+        "end": "2026-12-28T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      }
+    ]
+  },
+  {
+    "name": "KjG Gruppenstunde ab 8. Klasse",
+    "color": "#00BCD4",
+    "events": [
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
         "start": "2025-09-01T19:00",
         "end": "2025-09-01T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-09-15T19:00",
+        "end": "2025-09-15T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-09-29T19:00",
+        "end": "2025-09-29T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-10-13T19:00",
+        "end": "2025-10-13T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-10-27T19:00",
+        "end": "2025-10-27T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-11-10T19:00",
+        "end": "2025-11-10T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-11-24T19:00",
+        "end": "2025-11-24T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-12-08T19:00",
+        "end": "2025-12-08T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2025-12-22T19:00",
+        "end": "2025-12-22T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-01-05T19:00",
+        "end": "2026-01-05T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-01-19T19:00",
+        "end": "2026-01-19T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-02-02T19:00",
+        "end": "2026-02-02T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-02-16T19:00",
+        "end": "2026-02-16T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-03-02T19:00",
+        "end": "2026-03-02T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-03-16T19:00",
+        "end": "2026-03-16T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-03-30T19:00",
+        "end": "2026-03-30T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-04-13T19:00",
+        "end": "2026-04-13T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-04-27T19:00",
+        "end": "2026-04-27T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-05-11T19:00",
+        "end": "2026-05-11T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-05-25T19:00",
+        "end": "2026-05-25T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-06-08T19:00",
+        "end": "2026-06-08T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-06-22T19:00",
+        "end": "2026-06-22T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-07-06T19:00",
+        "end": "2026-07-06T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-07-20T19:00",
+        "end": "2026-07-20T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-08-03T19:00",
+        "end": "2026-08-03T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-08-17T19:00",
+        "end": "2026-08-17T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-08-31T19:00",
+        "end": "2026-08-31T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-09-14T19:00",
+        "end": "2026-09-14T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-09-28T19:00",
+        "end": "2026-09-28T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-10-12T19:00",
+        "end": "2026-10-12T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-10-26T19:00",
+        "end": "2026-10-26T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-11-09T19:00",
+        "end": "2026-11-09T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-11-23T19:00",
+        "end": "2026-11-23T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-12-07T19:00",
+        "end": "2026-12-07T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      },
+      {
+        "title": "Gruppenstunde ab 8.Klasse",
+        "start": "2026-12-21T19:00",
+        "end": "2026-12-21T20:30",
         "location": "KjG Jugendkeller",
         "description": "Gruppenstunde ab 8. Klasse"
       }
     ]
   },
   {
-    "name": "Gemeinde",
-    "color": "#ff0000",
+    "name": "KjG Termine",
+    "color": "#9C27B0",
     "events": [
       {
-        "title": "Gruppenstunde",
-        "start": "2025-09-01T17:30",
-        "end": "2025-09-01T19:00",
+        "title": "Mariokart Turnier",
+        "start": "2025-11-21T16:00",
+        "end": "2025-11-21T21:00",
         "location": "KjG Jugendkeller",
-        "description": "Gruppenstunde ab 3. Klasse"
+        "description": "Mariokart Turnier für alle Altersklassen. 8 Jahre bis 99 Jahre"
       },
       {
-        "title": "Gruppenstunde",
-        "start": "2025-09-01T19:00",
-        "end": "2025-09-01T20:30",
-        "location": "KjG Jugendkeller",
-        "description": "Gruppenstunde ab 8. Klasse"
+        "title": "Party",
+        "start": "2025-11-22T21:00",
+        "end": "2025-11-23T04:00",
+        "location": "KjG Jugendkeller"
+      },
+      {
+        "title": "Kinderwochenende in Hagen",
+        "start": "2026-04-30",
+        "end": "2026-05-03"
+      },
+      {
+        "title": "Kinderfreizeit 2026",
+        "start": "2026-08-15",
+        "end": "2026-08-29"
+      }
+    ]
+  },
+  {
+    "name": "Hausmeister/Grün AG",
+    "color": "#3F51B5",
+    "events": [
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2025-09-02T10:00",
+        "end": "2025-09-02T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2025-10-07T10:00",
+        "end": "2025-10-07T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2025-11-04T10:00",
+        "end": "2025-11-04T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2025-12-02T10:00",
+        "end": "2025-12-02T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-01-06T10:00",
+        "end": "2026-01-06T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-02-03T10:00",
+        "end": "2026-02-03T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-03-03T10:00",
+        "end": "2026-03-03T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-04-07T10:00",
+        "end": "2026-04-07T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-05-05T10:00",
+        "end": "2026-05-05T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-06-02T10:00",
+        "end": "2026-06-02T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-07-07T10:00",
+        "end": "2026-07-07T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-08-04T10:00",
+        "end": "2026-08-04T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-09-01T10:00",
+        "end": "2026-09-01T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-10-06T10:00",
+        "end": "2026-10-06T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-11-03T10:00",
+        "end": "2026-11-03T11:00"
+      },
+      {
+        "title": "Hausmeister/Grün AG",
+        "start": "2026-12-01T10:00",
+        "end": "2026-12-01T11:00"
+      }
+    ]
+  },
+  {
+    "name": "Gemeinde",
+    "color": "#2196F3",
+    "events": [
+      {
+        "title": "Fest Kreuzerhöhung",
+        "start": "2025-09-14T11:00",
+        "end": "2025-09-14T13:00",
+        "location": "Halde"
+      },
+      {
+        "title": "Vätermessdiener",
+        "start": "2025-09-23T19:30",
+        "end": "2025-09-23T20:30"
+      },
+      {
+        "title": "Messe der Filipinos",
+        "start": "2025-09-28T15:30",
+        "end": "2025-09-28T16:30"
+      },
+      {
+        "title": "Erntedankgottesdienst Autoscooter",
+        "start": "2025-10-05T10:30",
+        "end": "2025-10-05T11:30"
+      },
+      {
+        "title": "Messe der Filipinos",
+        "start": "2025-10-26T15:30",
+        "end": "2025-10-26T16:30"
+      },
+      {
+        "title": "Allerheiligen",
+        "start": "2025-11-01T11:15",
+        "end": "2025-11-01T12:30"
+      },
+      {
+        "title": "St. Martinsumzug",
+        "start": "2025-11-09T17:00",
+        "end": "2025-11-09T21:00"
+      },
+      {
+        "title": "Friedensmesse",
+        "start": "2025-11-16T11:15",
+        "end": "2025-11-16T12:30"
+      },
+      {
+        "title": "Einstimmen im Advent der KfD",
+        "start": "2025-11-25T15:30",
+        "end": "2025-11-25T17:00"
+      },
+      {
+        "title": "Krippe aufbauen",
+        "start": "2025-11-28T19:00",
+        "end": "2025-11-28T20:30"
+      },
+      {
+        "title": "Messe der Filipinos",
+        "start": "2025-11-30T15:30",
+        "end": "2025-11-30T17:00"
+      },
+      {
+        "title": "Barbarafest",
+        "start": "2025-12-04T19:00",
+        "end": "2025-12-04T23:00"
+      },
+      {
+        "title": "Jazz Konzert",
+        "start": "2025-12-20",
+        "end": "2025-12-20"
+      },
+      {
+        "title": "Silvester",
+        "start": "2025-12-31T18:00",
+        "end": "2025-12-31T24:00"
+      },
+      {
+        "title": "Einholung Sternsinger",
+        "start": "2026-01-04T11:15",
+        "end": "2026-01-04T12:30"
+      },
+      {
+        "title": "Dreikönigsmesse",
+        "start": "2026-01-06T19:00",
+        "end": "2026-01-06T20:00"
+      },
+      {
+        "title": "Krippe abbauen",
+        "start": "2026-01-11",
+        "end": "2026-01-11"
+      },
+      {
+        "title": "Christbäume abbauen",
+        "start": "2026-01-13T10:00",
+        "end": "2026-01-13T12:00"
+      },
+      {
+        "title": "Karnevalsmesse",
+        "start": "2026-02-15T10:30",
+        "end": "2026-02-15T12:00"
+      },
+      {
+        "title": "Ökumenischer Gottesdienst",
+        "start": "2026-07-05",
+        "end": "2026-07-05"
+      }
+    ]
+  },
+  {
+    "name": "Seniorencafé",
+    "color": "#03A9F4",
+    "events": [
+      {
+        "title": "Seniorencafé",
+        "start": "2025-09-11T15:00",
+        "end": "2025-09-11T17:00",
+        "location": "Gemeindesaal"
+      },
+      {
+        "title": "Seniorencafé",
+        "start": "2025-10-09T15:00",
+        "end": "2025-10-09T17:00",
+        "location": "Gemeindesaal"
+      },
+      {
+        "title": "Seniorencafé",
+        "start": "2025-11-13T15:00",
+        "end": "2025-11-13T17:00",
+        "location": "Gemeindesaal"
+      },
+      {
+        "title": "Seniorencafé",
+        "start": "2025-12-11T15:00",
+        "end": "2025-12-11T17:00",
+        "location": "Gemeindesaal"
+      }
+    ]
+  },
+  {
+    "name": "Gemeindefest",
+    "color": "#00BCD4",
+    "events": [
+      {
+        "title": "Gemeindefest 2025",
+        "start": "2025-09-06T17:00",
+        "end": "2025-09-07T19:00",
+        "location": "Gemeindewiese"
+      },
+      {
+        "title": "Gemeindefest 2026",
+        "start": "2026-09-20T17:00",
+        "end": "2026-09-21T19:00",
+        "location": "Gemeindewiese"
+      }
+    ]
+  },
+  {
+    "name": "Familiensonntage",
+    "color": "#009688",
+    "events": [
+      {
+        "title": "Familiensonntag",
+        "start": "2025-09-28T10:00",
+        "end": "2025-09-28T11:00"
+      },
+      {
+        "title": "Familiensonntag",
+        "start": "2025-10-26T10:00",
+        "end": "2025-10-26T11:00"
+      },
+      {
+        "title": "Familiensonntag",
+        "start": "2026-01-18T10:00",
+        "end": "2025-01-18T11:00"
+      },
+      {
+        "title": "Familiensonntag",
+        "start": "2026-03-08T10:00",
+        "end": "2025-03-08T11:00"
+      }
+    ]
+  },
+  {
+    "name": "Erstkommunion",
+    "color": "#4CAF50",
+    "events": [
+      {
+        "title": "Elternabend",
+        "start": "2025-09-09T19:00",
+        "end": "2025-09-09T20:00",
+        "description": "Einführung ins Thema 'Jesus unser Kompass' (Eltern)"
+      },
+      {
+        "title": "Kennlernsamstag + Übernachtung",
+        "start": "2025-09-20T15:30",
+        "end": "2025-09-21T09:00",
+        "description": "Gemeinschaft, Zeichen für den gemeinsamen Weg (Kinder)"
+      },
+      {
+        "title": "Messe",
+        "start": "2025-09-20T18:30",
+        "end": "2025-09-20T20:00",
+        "description": "Vorstellung des Themas in der Gemeinde (Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Familiensonntag 1",
+        "start": "2025-09-28T10:00",
+        "end": "2025-09-28T11:00",
+        "description": "Wer ist Jesus und Gott für mich? (Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Wortgottesdienst",
+        "start": "2025-09-28T11:15",
+        "end": "2025-09-28T12:30",
+        "description": "Vorstellung der Erstkommunionkinder in der Gemeinde (Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Erntedankfest",
+        "start": "2025-10-05T10:30",
+        "end": "2025-10-05T11:30",
+        "description": "'Quelle des Lebens' - Autoscooter (Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Familiensonntag 2 - Missio",
+        "start": "2025-10-26T10:00",
+        "end": "2025-10-26T11:15",
+        "description": "Kinder + Bezugsperson"
+      },
+      {
+        "title": "St. Martin + Nachmittagsaktion",
+        "start": "2025-11-08T15:30",
+        "end": "2025-11-08T18:30",
+        "description": "'Teilen auf dem Weg' - Martinsgeschichte, Licht weitergeben (Kinder)"
+      },
+      {
+        "title": "St. Martin Messe",
+        "start": "2025-11-08T18:30",
+        "end": "2025-11-08T19:30",
+        "description": "(Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Infoabend Prävention",
+        "start": "2025-11-12T18:00",
+        "end": "2025-11-12T21:00",
+        "description": "Was können wir / die Kirche tun, um Kinder vor Missbrauch zu schützen (Interessierte Erwachsene)"
+      },
+      {
+        "title": "Friedensmesse",
+        "start": "2025-11-16T11:15",
+        "end": "2025-11-16T12:30",
+        "description": "Engel Aktion (Engel basteln, Spenden für Stutenkerle) (Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Krippenaufbau",
+        "start": "2025-11-28T15:30",
+        "end": "2025-11-28T16:30",
+        "description": "Aufbau der Krippe in der Kirche + Basteln für Adventssonntage (Kinder + Eltern)"
+      },
+      {
+        "title": "Adventssonntage",
+        "start": "2025-11-30T11:15",
+        "end": "2025-11-30T12:30",
+        "description": "Messe (Kinder + Familien)"
+      },
+      {
+        "title": "Adventssonntage",
+        "start": "2025-12-07T11:15",
+        "end": "2025-12-07T12:30",
+        "description": "Messe (Kinder + Familien)"
+      },
+      {
+        "title": "Adventssonntage",
+        "start": "2025-12-14T11:15",
+        "end": "2025-12-14T12:30",
+        "description": "Messe (Kinder + Familien)"
+      },
+      {
+        "title": "Adventssonntage",
+        "start": "2025-12-21T11:15",
+        "end": "2025-12-21T12:30",
+        "description": "Messe (Kinder + Familien)"
+      },
+      {
+        "title": "Kinder- und Familiengottesdienst",
+        "start": "2025-12-24T15:30",
+        "end": "2025-12-24T16:30",
+        "description": "Üben Krippenspiel + Weihnachten (Kinder + Familien)"
+      },
+      {
+        "title": "Sternsingeraktion",
+        "start": "2025-12-27",
+        "end": "2026-01-06"
+      },
+      {
+        "title": "Dreikönigstag",
+        "start": "2026-01-06T19:00",
+        "end": "2026-01-06T20:00"
+      },
+      {
+        "title": "Familiensonntag + Taufpatenmesse",
+        "start": "2026-01-18T10:00",
+        "end": "2026-01-18T11:00",
+        "description": "'Der Anfang unseres Weges' - Tauferinnerung (Kinder + Verwandte + Taufpaten)"
+      },
+      {
+        "title": "Familiensonntag + Kerzensegnung",
+        "start": "2026-02-01T10:00",
+        "end": "2026-02-01T11:00",
+        "description": "(Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Familiensonntag + Kerzensegnung",
+        "start": "2026-02-08T10:00",
+        "end": "2026-02-08T11:00",
+        "description": "(Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Intensivsamstag",
+        "start": "2026-02-21T10:00",
+        "end": "2026-02-21T17:00",
+        "description": "Versöhnung und Pessach-Mahl (Kinder)"
+      },
+      {
+        "title": "Hostienbäckerei",
+        "start": "2026-02-21T10:00",
+        "end": "2026-02-21T17:00",
+        "description": "(Kinder + Fahrer)"
+      },
+      {
+        "title": "Familiensonntag",
+        "start": "2026-03-08T10:00",
+        "end": "2026-03-08T11:15",
+        "description": "Vater unser (Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Intensivsamstag",
+        "start": "2026-03-21T10:00",
+        "end": "2026-03-21T17:00",
+        "description": "(Kinder)"
+      },
+      {
+        "title": "Palmstockbasteln",
+        "start": "2026-03-28T10:00",
+        "end": "2026-03-28T11:15",
+        "description": "(Kinder + Helfende)"
+      },
+      {
+        "title": "Palmsonntag",
+        "start": "2026-03-29T11:15",
+        "end": "2026-03-29T12:30",
+        "description": "(Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Gründonnerstag-Agape",
+        "start": "2026-04-02T16:30",
+        "end": "2026-04-02T17:30",
+        "description": "(Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Osternacht",
+        "start": "2026-04-04T20:00",
+        "end": "2026-04-04T21:30",
+        "description": "Segnung des Osterfeuers + Osterfeuer (Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Osterfeuer",
+        "start": "2026-04-05T19:00",
+        "end": "2026-04-05T23:00",
+        "description": "(Kinder + Bezugsperson)"
+      },
+      {
+        "title": "Proben Erstkommunion",
+        "start": "2026-04-09T15:30",
+        "end": "2026-04-09T16:15",
+        "description": "(Kinder)"
+      },
+      {
+        "title": "Proben Erstkommunion",
+        "start": "2026-04-10T16:30",
+        "end": "2026-04-10T17:15",
+        "description": "(Kinder)"
+      },
+      {
+        "title": "Erstkommunionfeier",
+        "start": "2026-04-11T10:00",
+        "end": "2026-04-11T11:00"
+      },
+      {
+        "title": "Erstkommunionfeier",
+        "start": "2026-04-12T10:00",
+        "end": "2026-04-12T11:00"
+      },
+      {
+        "title": "Dankandacht",
+        "start": "2026-04-13T10:00",
+        "end": "2026-04-13T11:00",
+        "description": "Kinder + Bezugsperson"
+      },
+      {
+        "title": "Fronleichnam",
+        "start": "2026-06-04",
+        "end": "2026-06-04",
+        "description": "Kinder möglichst in Festkleidung + Bezugsperson"
       }
     ]
   }
