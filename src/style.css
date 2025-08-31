@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import 'primeicons/primeicons.css';
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fc-page-bg-color: #1f1f1f; /* Aura Dark Background */
+        --fc-page-color: #ffffff;     /* Textfarbe, optional */
+    }
+}

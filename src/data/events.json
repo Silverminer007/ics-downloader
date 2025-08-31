@@ -1,0 +1,42 @@
+[
+  {
+    "name": "KjG Termine",
+    "color": "#00ff00",
+    "events": [
+      {
+        "title": "Gruppenstunde",
+        "start": "2025-09-01T17:30",
+        "end": "2025-09-01T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde",
+        "start": "2025-09-01T19:00",
+        "end": "2025-09-01T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      }
+    ]
+  },
+  {
+    "name": "Gemeinde",
+    "color": "#ff0000",
+    "events": [
+      {
+        "title": "Gruppenstunde",
+        "start": "2025-09-01T17:30",
+        "end": "2025-09-01T19:00",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 3. Klasse"
+      },
+      {
+        "title": "Gruppenstunde",
+        "start": "2025-09-01T19:00",
+        "end": "2025-09-01T20:30",
+        "location": "KjG Jugendkeller",
+        "description": "Gruppenstunde ab 8. Klasse"
+      }
+    ]
+  }
+]
