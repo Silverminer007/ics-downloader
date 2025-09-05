@@ -11,7 +11,7 @@ export async function handler(event) {
         // Query-Parameter
         const selected = event.queryStringParameters?.cal?.split(",") || [];
 
-        const events = useICS().generateICS(calendars.filter(cal => {
+        const events = useICS().generateCalendarICS(calendars.filter(cal => {
             console.log(cal.name);
             console.log(selected.includes(cal.name));
             return selected.includes(cal.name);

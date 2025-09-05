@@ -5,10 +5,12 @@ import listPlugin from '@fullcalendar/list';
 import interactionPlugin from '@fullcalendar/interaction'
 import deLocale from '@fullcalendar/core/locales/de'
 import {computed, reactive, ref} from "vue";
-import DownloadDialog from './components/DownloadDialog.vue'
 
 import calendarsData from './data/events.json'
 import type {CalendarEvent} from "./types";
+import DownloadCalendars from "./components/DownloadCalendars.vue";
+import Dialog from "primevue/dialog";
+import DateDetailDialog from "./components/DateDetailDialog.vue";
 
 // Alle Events aus allen Kalendern zusammenführen
 const events = computed<CalendarEvent[]>(() => {
@@ -19,6 +21,9 @@ const events = computed<CalendarEvent[]>(() => {
 
 const calendarRef = ref(null)
 const calendarTitle = ref('')
+const selectedEvent = ref<CalendarEvent | undefined>(undefined)
+const showDateDetails = ref(false);
+const downloadDialog = ref(false);
 
 const listView = reactive({
   plugins: [interactionPlugin, listPlugin],
@@ -38,13 +43,22 @@ const listView = reactive({
       click: () => downloadDialog.value = true
     }
   },
-  datesSet: (info : any) => {
+  datesSet: (info: any) => {
     const date = info.start
-    calendarTitle.value = date.toLocaleString('default', { month: 'long', year: 'numeric' })
-  }
+    calendarTitle.value = date.toLocaleString('default', {month: 'long', year: 'numeric'})
+  },
+  eventClick: (info: any) => {
+    // Kalender-Event übernehmen
+    selectedEvent.value = {
+      title: info.event.title,
+      start: info.event.startStr,
+      end: info.event.endStr,
+      location: info.event.extendedProps.location,
+      description: info.event.extendedProps.description,
+    }
+    showDateDetails.value = true
+  },
 })
-
-const downloadDialog = ref(false);
 
 const monthView = reactive({
   plugins: [dayGridPlugin, interactionPlugin],
@@ -63,13 +77,27 @@ const monthView = reactive({
       text: 'Termine herunterladen',
       click: () => downloadDialog.value = true
     }
-  }
+  },
+  eventClick: (info: any) => {
+    // Kalender-Event übernehmen
+    selectedEvent.value = {
+      title: info.event.title,
+      start: info.event.startStr,
+      end: info.event.endStr,
+      location: info.event.extendedProps.location,
+      description: info.event.extendedProps.description,
+    }
+    showDateDetails.value = true
+  },
 })
 </script>
 
 <template>
   <div class="h-screen flex flex-col">
-    <DownloadDialog v-model:dialogVisible="downloadDialog" />
+    <Dialog v-model:visible="downloadDialog">
+      <DownloadCalendars/>
+    </Dialog>
+    <DateDetailDialog v-model="showDateDetails" :event="selectedEvent"/>
     <div class="hidden sm:block m-2 flex-grow">
       <FullCalendar ref="calendarRef" :options="monthView"/>
     </div>
