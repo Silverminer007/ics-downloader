@@ -1,6 +1,7 @@
-import type { CalendarEvent } from "../types";
+import type {Calendar} from "../types";
 
 export function useICS() {
+
     function formatDateTime(dateStr: string, allDay = false) {
         const date = new Date(dateStr);
 
@@ -39,7 +40,7 @@ export function useICS() {
         return result + line;
     }
 
-    function generateICS(events: CalendarEvent[]) {
+    function generateICS(calendars: Calendar[]) {
         const header = [
             "BEGIN:VCALENDAR",
             "VERSION:2.0",
@@ -51,59 +52,48 @@ export function useICS() {
 
         const footer = "END:VCALENDAR";
 
-        const body = events
-            .map((e, i) => {
-                const uid = `${i}-${Date.now()}@calendar.kjg-st-barbara.de`;
-                const dtstamp = formatDateTime(new Date().toISOString());
+        const body = calendars.map(cal =>
+            cal.events
+                .map((e, i) => {
+                    const uid = `${i}-${Date.now()}@calendar.kjg-st-barbara.de`;
+                    const dtstamp = formatDateTime(new Date().toISOString());
 
-                const allDay =
-                    !e.start.includes("T") || (e.end && !e.end.includes("T"));
+                    const allDay =
+                        !e.start.includes("T") || (e.end && !e.end.includes("T"));
 
-                const lines = [
-                    "BEGIN:VEVENT",
-                    `UID:${uid}`,
-                    `DTSTAMP:${dtstamp}Z`, // DTSTAMP bleibt in UTC
-                    `SUMMARY:${escapeText(e.title)}`,
-                    allDay
-                        ? `DTSTART;VALUE=DATE:${formatDateTime(e.start, true)}`
-                        : `DTSTART;TZID=Europe/Berlin:${formatDateTime(e.start)}`,
-                ];
-
-                if (e.end) {
-                    lines.push(
+                    const lines = [
+                        "BEGIN:VEVENT",
+                        `UID:${uid}`,
+                        `DTSTAMP:${dtstamp}Z`, // DTSTAMP bleibt in UTC
+                        `SUMMARY:${escapeText(e.title)}`,
                         allDay
-                            ? `DTEND;VALUE=DATE:${formatDateTime(e.end, true)}`
-                            : `DTEND;TZID=Europe/Berlin:${formatDateTime(e.end)}`
-                    );
-                }
-                if (e.location)
-                    lines.push(`LOCATION:${escapeText(e.location)}`);
-                if (e.description)
-                    lines.push(`DESCRIPTION:${escapeText(e.description)}`);
+                            ? `DTSTART;VALUE=DATE:${formatDateTime(e.start, true)}`
+                            : `DTSTART;TZID=Europe/Berlin:${formatDateTime(e.start)}`,
+                    ];
 
-                lines.push("END:VEVENT");
+                    if (e.end) {
+                        lines.push(
+                            allDay
+                                ? `DTEND;VALUE=DATE:${formatDateTime(e.end, true)}`
+                                : `DTEND;TZID=Europe/Berlin:${formatDateTime(e.end)}`
+                        );
+                    }
+                    if (e.location)
+                        lines.push(`LOCATION:${escapeText(e.location)}`);
+                    if (e.description)
+                        lines.push(`DESCRIPTION:${escapeText(e.description)}`);
 
-                return lines.map(foldLine).join("\r\n");
-            })
+                    lines.push("END:VEVENT");
+
+                    return lines.map(foldLine).join("\r\n");
+                })
+                .join("\r\n"))
             .join("\r\n");
 
         return [header, body, footer].join("\r\n");
     }
 
-    function downloadICS(events: CalendarEvent[], filename = "calendar.ics") {
-        const icsContent = generateICS(events);
-        const blob = new Blob([icsContent], {
-            type: "text/calendar;charset=utf-8",
-        });
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = filename;
-        link.click();
-        URL.revokeObjectURL(link.href);
-    }
-
     return {
         generateICS,
-        downloadICS,
     };
 }

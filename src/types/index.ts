@@ -6,3 +6,9 @@ export interface CalendarEvent {
     description?: string // optional
     color?: string
 }
+
+export interface Calendar {
+    name: string
+    color: string
+    events: CalendarEvent[]
+}
