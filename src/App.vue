@@ -94,7 +94,7 @@ const monthView = reactive({
 
 <template>
   <div class="h-screen flex flex-col">
-    <Dialog v-model:visible="downloadDialog">
+    <Dialog v-model:visible="downloadDialog" header="Kalender auswählen" modal>
       <DownloadCalendars/>
     </Dialog>
     <DateDetailDialog v-model="showDateDetails" :event="selectedEvent"/>

@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import Dialog from "primevue/dialog"
 import Button from "primevue/button"
+import ProgressSpinner from 'primevue/progressspinner'
 import type {CalendarEvent} from "../types";
 import {useICS} from "../composables/useICS.ts";
+import {useCalendarPDF} from "../composables/usePDF.ts";
 
 const props = defineProps<{
   modelValue: boolean
@@ -28,6 +30,7 @@ function formatDate(dateStr?: string) {
 }
 
 const {generateEventICS} = useICS();
+const {isGenerating, downloadPDF} = useCalendarPDF();
 
 function downloadICS() {
   if (!props.event) {
@@ -70,8 +73,10 @@ function downloadICS() {
     </div>
 
     <template #footer>
-      <Button label="Termin herunterladen" :disabled="!props.event" icon="pi pi-download" @click="downloadICS"/>
-      <Button label="Schließen" icon="pi pi-times" @click="emit('update:modelValue', false)"/>
+      <ProgressSpinner style="width: 40px; height: 40px" stroke-width="6" v-if="isGenerating"/>
+      <Button label="PDF Herunterladen" :disabled="!props.event" icon="pi pi-download"
+              @click="downloadPDF(props.event ? [props.event] : [])"/>
+      <Button label="In Kalender übernehmen" :disabled="!props.event" icon="pi pi-download" @click="downloadICS"/>
     </template>
   </Dialog>
 </template>
