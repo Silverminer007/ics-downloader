@@ -8,20 +8,14 @@ export async function handler(event) {
         const dataPath = path.resolve("src/data/events.json");
         const calendars = JSON.parse(readFileSync(dataPath, "utf-8"));
 
-        console.log("Calendars loaded:", calendars.length);
-
         // Query-Parameter
         const selected = event.queryStringParameters?.cal?.split(",") || [];
-
-        console.log("Calendars selected:", selected);
 
         const events = useICS().generateICS(calendars.filter(cal => {
             console.log(cal.name);
             console.log(selected.includes(cal.name));
             return selected.includes(cal.name);
         }));
-
-        console.log(events);
 
         return {
             statusCode: 200,
